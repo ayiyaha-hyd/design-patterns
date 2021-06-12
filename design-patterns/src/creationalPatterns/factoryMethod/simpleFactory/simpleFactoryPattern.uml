@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creationalPatterns.factoryMethod.simpleFactory.CheesePizza</OriginalElement>
+  <nodes>
+    <node x="0.0" y="184.0">creationalPatterns.factoryMethod.simpleFactory.CheesePizza</node>
+    <node x="396.3549999999999" y="0.0">creationalPatterns.factoryMethod.simpleFactory.Pizza</node>
+    <node x="420.5" y="463.0">creationalPatterns.factoryMethod.simpleFactory.PizzaStore</node>
+    <node x="282.5" y="358.0">creationalPatterns.factoryMethod.simpleFactory.SimplyPizzaFactory</node>
+    <node x="156.0" y="184.0">creationalPatterns.factoryMethod.simpleFactory.VeggiePizze</node>
+    <node x="312.0" y="184.0">creationalPatterns.factoryMethod.simpleFactory.ClamPizza</node>
+    <node x="465.0" y="184.0">creationalPatterns.factoryMethod.simpleFactory.PepperoniPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creationalPatterns.factoryMethod.simpleFactory.PepperoniPizza" target="creationalPatterns.factoryMethod.simpleFactory.Pizza">
+      <point x="0.0" y="-62.0" />
+      <point x="545.0" y="164.0" />
+      <point x="473.9383333333333" y="164.0" />
+      <point x="11.083333333333371" y="62.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.simpleFactory.VeggiePizze" target="creationalPatterns.factoryMethod.simpleFactory.Pizza">
+      <point x="0.0" y="-62.0" />
+      <point x="224.0" y="154.0" />
+      <point x="429.6049999999999" y="154.0" />
+      <point x="-33.25" y="62.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.simpleFactory.ClamPizza" target="creationalPatterns.factoryMethod.simpleFactory.Pizza">
+      <point x="0.0" y="-62.0" />
+      <point x="378.5" y="164.0" />
+      <point x="451.7716666666666" y="164.0" />
+      <point x="-11.083333333333314" y="62.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.simpleFactory.CheesePizza" target="creationalPatterns.factoryMethod.simpleFactory.Pizza">
+      <point x="0.0" y="-62.0" />
+      <point x="68.0" y="144.0" />
+      <point x="407.4383333333332" y="144.0" />
+      <point x="-55.416666666666686" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="312.5" y="259.0" />
+  <SelectedNodes>
+    <node>creationalPatterns.factoryMethod.simpleFactory.CheesePizza</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

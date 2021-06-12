@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creationalPatterns.factoryMethod.factoryMethod.ChicagoStylePepperoniPizza</OriginalElement>
+  <nodes>
+    <node x="1009.1712962962962" y="0.0">creationalPatterns.factoryMethod.factoryMethod.Pizza</node>
+    <node x="792.6666666666665" y="300.0">creationalPatterns.factoryMethod.factoryMethod.PizzaTestDrive</node>
+    <node x="286.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleClamPizza</node>
+    <node x="1371.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.NYStylePepperoniPizza</node>
+    <node x="1607.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.NYStyleVeggiePizza</node>
+    <node x="1175.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.NYStyleClamPizza</node>
+    <node x="774.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleCheesePizza</node>
+    <node x="522.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleVeggiePizza</node>
+    <node x="10.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.ChicagoStylePepperoniPizza</node>
+    <node x="1519.5" y="220.0">creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore</node>
+    <node x="1819.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.NYStyleCheesePizza</node>
+    <node x="1027.5" y="130.0">creationalPatterns.factoryMethod.factoryMethod.PizzaStore</node>
+    <node x="672.5" y="220.0">creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoStylePepperoniPizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="0.0" y="-15.0" />
+      <point x="138.5" y="60.0" />
+      <point x="1018.5998677248676" y="60.0" />
+      <point x="-34.571428571428555" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.PizzaTestDrive" target="creationalPatterns.factoryMethod.factoryMethod.PizzaStore">
+      <point x="20.0" y="-15.0" />
+      <point x="892.6666666666665" y="270.0" />
+      <point x="1091.5" y="270.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.NYStyleClamPizza">
+      <point x="-36.0" y="-15.0" />
+      <point x="1555.5" y="190.0" />
+      <point x="1263.5" y="190.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleClamPizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="0.0" y="-15.0" />
+      <point x="394.5" y="70.0" />
+      <point x="1024.8855820105819" y="70.0" />
+      <point x="-28.285714285714334" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleClamPizza">
+      <point x="-46.0" y="-15.0" />
+      <point x="718.5" y="190.0" />
+      <point x="394.5" y="190.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYStyleVeggiePizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="0.0" y="-15.0" />
+      <point x="1703.5" y="80.0" />
+      <point x="1075.171296296296" y="80.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.PizzaStore">
+      <point x="76.66666666666674" y="-15.0" />
+      <point x="841.1666666666667" y="200.0" />
+      <point x="1048.8333333333333" y="200.0" />
+      <point x="-42.66666666666663" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.NYStylePepperoniPizza">
+      <point x="-12.0" y="-15.0" />
+      <point x="1579.5" y="180.0" />
+      <point x="1479.5" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.PizzaStore">
+      <point x="-60.0" y="-15.0" />
+      <point x="1531.5" y="200.0" />
+      <point x="1134.1666666666665" y="200.0" />
+      <point x="42.66666666666663" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.NYStyleCheesePizza">
+      <point x="36.0" y="-15.0" />
+      <point x="1627.5" y="190.0" />
+      <point x="1915.5" y="190.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYStyleClamPizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="0.0" y="-15.0" />
+      <point x="1263.5" y="100.0" />
+      <point x="1062.5998677248676" y="100.0" />
+      <point x="9.428571428571331" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="60.0" y="-15.0" />
+      <point x="1651.5" y="200.0" />
+      <point x="2021.9999999999998" y="200.0" />
+      <point x="2021.9999999999998" y="50.0" />
+      <point x="1094.0284391534392" y="50.0" />
+      <point x="40.85714285714289" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.ChicagoStylePepperoniPizza">
+      <point x="-76.66666666666674" y="-15.0" />
+      <point x="687.8333333333333" y="200.0" />
+      <point x="138.5" y="200.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleVeggiePizza">
+      <point x="-15.333333333333258" y="-15.0" />
+      <point x="749.1666666666667" y="180.0" />
+      <point x="638.5" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.PizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="0.0" y="-15.0" />
+      <point x="1091.5" y="110.0" />
+      <point x="1056.3141534391534" y="110.0" />
+      <point x="3.1428571428571104" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleCheesePizza">
+      <point x="15.333333333333258" y="-15.0" />
+      <point x="779.8333333333333" y="180.0" />
+      <point x="890.5" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleCheesePizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="58.0" y="-15.0" />
+      <point x="948.5" y="100.0" />
+      <point x="1043.742724867725" y="100.0" />
+      <point x="-9.428571428571331" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYStyleCheesePizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="48.0" y="-15.0" />
+      <point x="1963.5" y="60.0" />
+      <point x="1087.742724867725" y="60.0" />
+      <point x="34.57142857142867" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYStylePepperoniPizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="0.0" y="-15.0" />
+      <point x="1479.5" y="90.0" />
+      <point x="1068.8855820105819" y="90.0" />
+      <point x="15.71428571428578" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.NYStyleVeggiePizza">
+      <point x="12.0" y="-15.0" />
+      <point x="1603.5" y="180.0" />
+      <point x="1703.5" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoStyleVeggiePizza" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="0.0" y="-15.0" />
+      <point x="638.5" y="80.0" />
+      <point x="1031.171296296296" y="80.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.PizzaTestDrive" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="-60.0" y="-15.0" />
+      <point x="812.6666666666665" y="280.0" />
+      <point x="0.0" y="280.0" />
+      <point x="0.0" y="50.0" />
+      <point x="1012.3141534391533" y="50.0" />
+      <point x="-40.85714285714289" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.PizzaTestDrive" target="creationalPatterns.factoryMethod.factoryMethod.NYPizzaStore">
+      <point x="60.0" y="-15.0" />
+      <point x="932.6666666666665" y="280.0" />
+      <point x="1591.5" y="280.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore" target="creationalPatterns.factoryMethod.factoryMethod.Pizza">
+      <point x="46.0" y="-15.0" />
+      <point x="810.5" y="190.0" />
+      <point x="1017.0" y="190.0" />
+      <point x="1017.0" y="110.0" />
+      <point x="1050.0284391534392" y="110.0" />
+      <point x="-3.1428571428571104" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.factoryMethod.factoryMethod.PizzaTestDrive" target="creationalPatterns.factoryMethod.factoryMethod.ChicagoPizzaStore">
+      <point x="-20.0" y="-15.0" />
+      <point x="852.6666666666665" y="270.0" />
+      <point x="764.5" y="270.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5464830300049188" x="1006.5" y="165.0" />
+  <SelectedNodes>
+    <node>creationalPatterns.factoryMethod.factoryMethod.ChicagoStylePepperoniPizza</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
