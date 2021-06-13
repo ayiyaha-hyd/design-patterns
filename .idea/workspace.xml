@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a518b56-8c35-4b91-a821-cfb94ac5f827" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/ChicagoDough.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/ChicagoPizzaIngredientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/ChicagoSauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/Dough.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/FactoryProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/NYDough.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/NYPizzaIngredientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/NYSauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/PizzaIngredientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/Sauce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/abstractFactoryMethodPattern.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/abstractFactoryMethodPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/abstractFactoryMethod/abstractFactoryMethodPattern.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/builder/BuilderA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/builder/BuilderB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/builder/KFC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/builder/KFCWaiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/builder/Meal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/builder/MealBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/builder/builderPattern.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/ChicagoPizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/ChicagoStyleCheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/ChicagoStyleClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/ChicagoStylePepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/ChicagoStyleVeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/NYPizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/NYStyleCheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/NYStyleClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/NYStylePepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/NYStyleVeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/PizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/PizzaTestDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/factoryMethodPattern.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/factoryMethodPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/factoryMethod/factoryMethodPattern.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/CheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/ClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/PepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/PizzaStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/SimplyPizzaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/VeggiePizze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/simpleFactoryPattern.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/simpleFactoryPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/src/creationalPatterns/factoryMethod/simpleFactory/simpleFactoryPattern.uml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\dev\MavenRepository\repository" />
+        <option name="mavenHome" value="C:\dev\maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\dev\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ttOO644kK6Najn7BQGCe8UoEsW" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.27010804" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a518b56-8c35-4b91-a821-cfb94ac5f827" name="Default Changelist" comment="" />
+      <created>1623584883489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623584883489</updated>
+      <workItem from="1623584886335" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
