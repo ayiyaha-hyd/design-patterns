@@ -1,4 +1,10 @@
 package creationalPatterns.abstractFactoryMethod;
 
-public class Dough {
+public abstract class Dough {
+    protected String name;
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

@@ -1,4 +1,10 @@
 package creationalPatterns.abstractFactoryMethod;
 
-public class Sauce {
+public abstract class Sauce {
+    protected String name;
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

@@ -1,39 +1,46 @@
 package creationalPatterns.abstractFactoryMethod;
 
-public abstract class Pizza {
-    /*
-     * 每个披萨都持有一组在准备时会用到的原料
-     */
-    String name;
-    Dough dough;
-    Sauce sauce;
-    Veggies veggies[];
-    Cheese cheese;
-    Pepperoni pepperoni;
-    Clams clams;
+/**
+ * 具体的产品
+ * 使用抽象工厂模式创建对象
+ */
+public class Pizza {
+    private String name;
+    private Dough dough;      //面团
+    private Sauce sauce;      //酱料
 
-    /*
-     * prepare()方法声明为抽象方法。在这个方法中，我们需要收集披萨所需要的原料，而这些原料都是来自原料工厂
-     */
-    abstract void prepare();
+    public Pizza(String type) {
+        name = type + "Pizza";
 
-    void bake() {
-        System.out.println("Bake for 25 munites at 350");
+        //使用指定工厂创建同一产品族的产品
+        PizzaIngredientFactory factory = FactoryProducer.getFactory("NY");
+        dough = factory.createDough();
+        sauce = factory.createSauce();
     }
 
-    void cut() {
-        System.out.println("Cutting the pizza into diagonal slices");
+    //测试
+    public static void main(String[] args) {
+        PizzaStore pizzaStore = new PizzaStore();
+        pizzaStore.createPizza("NY");
+
     }
 
-    void box() {
-        System.out.println("Place pizza in official PizzaStore box");
+    static class PizzaStore {
+        Pizza createPizza(String type) {
+            Pizza pizza = new Pizza(type);
+            System.out.println(pizza.getName() + "...");
+            System.out.println("use " + pizza.getDough() + "...");
+            System.out.println("use " + pizza.getSauce() + "...");
+            return pizza;
+        }
     }
-
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
+    public Dough getDough() {
+        return dough;
+    }
+    public Sauce getSauce() {
+        return sauce;
     }
 }

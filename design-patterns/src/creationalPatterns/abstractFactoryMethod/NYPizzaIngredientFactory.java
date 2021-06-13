@@ -1,34 +1,20 @@
 package creationalPatterns.abstractFactoryMethod;
 
-public class NYPizzaIngredientFactory implements PizzaIngredientFactory{
-    @Override
-    public Cheese createCheese() {
-        return new ReggianoCheese();
+/**
+ * 纽约比萨配料厂
+ * 具体的工厂角色，比萨配料厂的实现类
+ */
+public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+    public NYPizzaIngredientFactory(){
+        System.out.println("use NYPizzaIngredientFactory...");
     }
-
-    @Override
-    public Clams createClams() {
-        return new FreshClams();
-    }
-
     @Override
     public Dough createDough() {
-        return new ThinCrustDough();
-    }
-
-    @Override
-    public Pepperoni createPepperoni() {
-        return new SlicedPepperoni();
+        return new NYDough();
     }
 
     @Override
     public Sauce createSauce() {
-        return new MarinaraSauce();
-    }
-
-    @Override
-    public Veggies[] createVeggies() {
-        Veggies veggies[] =  {new Garlic(),new Onion(),new Mushroom(),new RefPepper()};
-        return veggies;
+        return new NYSauce();
     }
 }

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creationalPatterns.abstractFactoryMethod.ChicagoDough</OriginalElement>
+  <nodes>
+    <node x="21.5" y="120.0">creationalPatterns.abstractFactoryMethod.NYDough</node>
+    <node x="345.5" y="370.0">creationalPatterns.abstractFactoryMethod.Pizza</node>
+    <node x="522.9150793650796" y="120.0">creationalPatterns.abstractFactoryMethod.ChicagoDough</node>
+    <node x="66.4833333333334" y="200.0">creationalPatterns.abstractFactoryMethod.NYPizzaIngredientFactory</node>
+    <node x="687.9150793650796" y="120.0">creationalPatterns.abstractFactoryMethod.ChicagoSauce</node>
+    <node x="539.5678571428572" y="200.0">creationalPatterns.abstractFactoryMethod.ChicagoPizzaIngredientFactory</node>
+    <node x="278.9150793650796" y="120.0">creationalPatterns.abstractFactoryMethod.PizzaIngredientFactory</node>
+    <node x="716.9833333333335" y="0.0">creationalPatterns.abstractFactoryMethod.Sauce</node>
+    <node x="224.66547619047617" y="280.0">creationalPatterns.abstractFactoryMethod.FactoryProducer</node>
+    <node x="146.5" y="120.0">creationalPatterns.abstractFactoryMethod.NYSauce</node>
+    <node x="87.2333333333334" y="0.0">creationalPatterns.abstractFactoryMethod.Dough</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creationalPatterns.abstractFactoryMethod.ChicagoPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.ChicagoSauce">
+      <point x="56.0" y="-15.0" />
+      <point x="735.5678571428572" y="175.0" />
+      <point x="759.9150793650796" y="175.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.FactoryProducer" target="creationalPatterns.abstractFactoryMethod.PizzaIngredientFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="308.66547619047617" y="255.0" />
+      <point x="343.6650793650796" y="255.0" />
+      <point x="343.6650793650796" y="175.0" />
+      <point x="362.9150793650796" y="175.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.FactoryProducer" target="creationalPatterns.abstractFactoryMethod.NYPizzaIngredientFactory">
+      <point x="-56.0" y="-15.0" />
+      <point x="252.66547619047617" y="255.0" />
+      <point x="186.4833333333334" y="255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.NYPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.Sauce">
+      <point x="48.0" y="-15.0" />
+      <point x="234.4833333333334" y="175.0" />
+      <point x="267.0" y="175.0" />
+      <point x="267.0" y="90.0" />
+      <point x="735.8404761904764" y="90.0" />
+      <point x="-25.14285714285711" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.ChicagoPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.Sauce">
+      <point x="112.0" y="-15.0" />
+      <point x="791.5678571428572" y="175.0" />
+      <point x="842.4150793650796" y="175.0" />
+      <point x="842.4150793650796" y="100.0" />
+      <point x="773.554761904762" y="100.0" />
+      <point x="12.571428571428555" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.NYPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.NYSauce">
+      <point x="0.0" y="-15.0" />
+      <point x="186.4833333333334" y="175.0" />
+      <point x="198.5" y="175.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.Pizza" target="creationalPatterns.abstractFactoryMethod.PizzaIngredientFactory">
+      <point x="7.333333333333314" y="-15.0" />
+      <point x="396.83333333333326" y="350.0" />
+      <point x="403.16547619047617" y="350.0" />
+      <point x="403.16547619047617" y="175.0" />
+      <point x="418.9150793650796" y="175.0" />
+      <point x="27.999999999999943" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.Pizza" target="creationalPatterns.abstractFactoryMethod.FactoryProducer">
+      <point x="-7.333333333333314" y="-15.0" />
+      <point x="382.16666666666663" y="330.0" />
+      <point x="308.66547619047617" y="330.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.FactoryProducer" target="creationalPatterns.abstractFactoryMethod.ChicagoPizzaIngredientFactory">
+      <point x="56.0" y="-15.0" />
+      <point x="364.66547619047617" y="255.0" />
+      <point x="679.5678571428572" y="255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.NYPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.PizzaIngredientFactory">
+      <point x="96.0" y="-15.0" />
+      <point x="282.4833333333334" y="175.0" />
+      <point x="306.9150793650796" y="175.0" />
+      <point x="-84.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.ChicagoPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.Dough">
+      <point x="0.0" y="-15.0" />
+      <point x="679.5678571428572" y="175.0" />
+      <point x="677.4150793650796" y="175.0" />
+      <point x="677.4150793650796" y="50.0" />
+      <point x="168.94761904761913" y="50.0" />
+      <point x="37.71428571428572" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.Pizza" target="creationalPatterns.abstractFactoryMethod.Dough">
+      <point x="-36.66666666666663" y="-15.0" />
+      <point x="352.83333333333337" y="350.0" />
+      <point x="0.0" y="350.0" />
+      <point x="0.0" y="80.0" />
+      <point x="93.51904761904768" y="80.0" />
+      <point x="-37.71428571428572" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.ChicagoPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.ChicagoDough">
+      <point x="-56.0" y="-15.0" />
+      <point x="623.5678571428572" y="175.0" />
+      <point x="594.9150793650796" y="175.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.PizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.Sauce">
+      <point x="55.99999999999994" y="-15.0" />
+      <point x="446.9150793650796" y="100.0" />
+      <point x="748.4119047619049" y="100.0" />
+      <point x="-12.571428571428555" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.NYPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.Dough">
+      <point x="-48.0" y="-15.0" />
+      <point x="138.4833333333334" y="175.0" />
+      <point x="136.0" y="175.0" />
+      <point x="136.0" y="100.0" />
+      <point x="131.2333333333334" y="100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.Pizza" target="creationalPatterns.abstractFactoryMethod.Sauce">
+      <point x="36.66666666666663" y="-15.0" />
+      <point x="426.16666666666663" y="350.0" />
+      <point x="878.1650793650796" y="350.0" />
+      <point x="878.1650793650796" y="80.0" />
+      <point x="798.6976190476192" y="80.0" />
+      <point x="37.71428571428578" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.NYSauce" target="creationalPatterns.abstractFactoryMethod.Sauce">
+      <point x="0.0" y="-15.0" />
+      <point x="198.5" y="80.0" />
+      <point x="723.2690476190478" y="80.0" />
+      <point x="-37.714285714285666" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.NYDough" target="creationalPatterns.abstractFactoryMethod.Dough">
+      <point x="0.0" y="-15.0" />
+      <point x="73.5" y="100.0" />
+      <point x="118.66190476190485" y="100.0" />
+      <point x="-12.571428571428555" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.NYPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.NYDough">
+      <point x="-96.0" y="-15.0" />
+      <point x="90.4833333333334" y="175.0" />
+      <point x="73.5" y="175.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.ChicagoPizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.PizzaIngredientFactory">
+      <point x="-112.0" y="-15.0" />
+      <point x="567.5678571428572" y="175.0" />
+      <point x="474.9150793650796" y="175.0" />
+      <point x="83.99999999999994" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.ChicagoSauce" target="creationalPatterns.abstractFactoryMethod.Sauce">
+      <point x="0.0" y="-15.0" />
+      <point x="759.9150793650796" y="100.0" />
+      <point x="760.9833333333335" y="100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.ChicagoDough" target="creationalPatterns.abstractFactoryMethod.Dough">
+      <point x="0.0" y="-15.0" />
+      <point x="594.9150793650796" y="60.0" />
+      <point x="156.37619047619057" y="60.0" />
+      <point x="25.142857142857167" y="15.0" />
+    </edge>
+    <edge source="creationalPatterns.abstractFactoryMethod.PizzaIngredientFactory" target="creationalPatterns.abstractFactoryMethod.Dough">
+      <point x="-56.00000000000006" y="-15.0" />
+      <point x="334.9150793650796" y="70.0" />
+      <point x="143.80476190476196" y="70.0" />
+      <point x="12.571428571428584" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="439.5" y="200.0" />
+  <SelectedNodes>
+    <node>creationalPatterns.abstractFactoryMethod.ChicagoDough</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
